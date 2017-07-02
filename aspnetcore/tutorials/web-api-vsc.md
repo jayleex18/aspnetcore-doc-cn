@@ -1,5 +1,5 @@
 ---
-title: Create a Web API with ASP.NET Core and VS Code
+title: 用 ASP.NET Core MVC 和 Visual Studio Code 创建你的第一个 Web API
 author: rick-anderson
 description: Build a web API on macOS, Linux, or Windows with ASP.NET Core MVC and Visual Studio Code
 keywords: ASP.NET Core 中文文档, WebAPI, Web API, REST, Mac, Linux,HTTP, Service, HTTP Service
@@ -13,22 +13,29 @@ ms.prod: asp.net-core
 uid: tutorials/web-api-vsc
 ---
 
-# Create a Web API with ASP.NET Core MVC and Visual Studio Code on Linux, macOS, and Windows
+# 在  Linux, macOS, 以及 Windows平台 用 ASP.NET Core MVC 和 Visual Studio Code 创建你的第一个 Web API
 
 <!-- WARNING: The code AND images in this doc are used by uid: tutorials/web-api-vsc, tutorials/first-web-api-mac and tutorials/first-web-api. If you change any code/images in this tutorial, update uid: tutorials/web-api-vsc -->
 
 [!INCLUDE[template files](../includes/webApi/intro.md)]
 
-## Set up your development environment
+<!--## Set up your development environment-->
+## 设置好你的开发环境
 
-Download and install:
+<!--Download and install:
 - [.NET Core](https://microsoft.com/net/core)
 - [Visual Studio Code](https://code.visualstudio.com)
-- Visual Studio Code [C# extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
+- Visual Studio Code [C# extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)-->
+下载并安装:
+- [.NET Core](https://microsoft.com/net/core)
+- [Visual Studio Code](https://code.visualstudio.com)
+- Visual Studio Code [C# 插件](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
 
-## Create the project
+<!--## Create the project-->
+## 创建项目
 
-From a console, run the following commands:
+<!--From a console, run the following commands:-->
+在命令行控制台， 运行一下命令：
 
 ```console
 mkdir TodoApi
